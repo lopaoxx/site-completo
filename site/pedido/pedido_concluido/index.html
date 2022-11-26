@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido Concluído</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="main-container">
+            <h1 id="conteudo1">PEDIDO CONCLUIDO</h1>
+        </div>
+        <span>dasd</span>
+        <div id="second-container">
+            <h1 id="conteudo2">Obrigado por comprar conosco!</h1>
+            <p>Sua encomenda ja esta sendo preparada e logo chegara em suas mãos!</p>
+            <img id="gato">
+            <p>Não se esqueça de avaliar nossa entrega e nos acompanhar para saber das novidades.</p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p>Clique para mostrar o número do pedido:
+                <button type="button" id="aqui" onclick="random()">aqui</button>
+            </p>
+            <span>dsdas</span>
+            <p id="voltar">
+                Voltar a
+                <button type="button" class="volta" onclick="locations()">Pagina inicial</button>
+            </p>
+            </div>
+            <span></span>
+            <script>function locations(){ 
+                window.location.href='../../index.html';
+            }</script>
+
+            <script>
+                function random() {
+                    document.getElementById('aqui').innerHTML = Math.floor(Math.random() * 100)
+                }
+            </script>
+        </body>
+    </html>

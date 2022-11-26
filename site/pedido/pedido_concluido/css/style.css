@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+body {
+    padding-top: 5vh;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+}
+
+/* form */
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+H1 {
+    text-align: center;
+}
+
+span {
+    visibility: hidden;
+}
+
+#second-container {
+
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#conteudo1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+    color: #35bb52;
+    border: none;
+}
+
+#conteudo2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #963737;
+    border: none;
+
+}
+
+p {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    color: #323232;
+    border: none;
+}
+
+#gato {
+    margin-left: 60px;
+    margin-right: 50px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    background-image: url("../img/gato.gif");
+}
+
+input[type="submit"] {
+    background-color: #E60084;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#third-container {
+
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#voltar {
+    text-align: center;
+}
+
+a {
+    color: #E60084;
+}
+
+.volta {
+    color: #E60084;
+    font-size: 0.9em;
+    }
+
+#aqui{
+    color: #E60084;
+    font-size: 1em;
+}
